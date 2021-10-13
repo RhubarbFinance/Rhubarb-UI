@@ -4,10 +4,10 @@ import './App.css';
 
 function App() {
   
-  return (
+  return ( <>
     <div className="textarea">
         <p>
-          <img src="./assets/rhubarb.gif" alt="logo"/>
+          <img src="./logo192.png" alt="logo"/>
           <br/>Rhubarb - In Plant We Trust
         </p>
         <div className="box">
@@ -22,7 +22,23 @@ function App() {
 
         </div>
     </div>
-  );
+
+    <div className="textarea">
+        <div className="box">
+          <div className="box-header">
+            
+          </div>
+
+          <div className="box-body">
+            <p> Plant your LP-seed and see you $rhub growing over time</p>
+            <p> Rhubarb is the first farm collaterized by market-making bots: earn juicy $rhub by traditional LP incentivization, as in traditional 
+              farms, <b>and</b> some extra $rhub via our secret <i>non-custodial</i> recipe of rhubarb marmelade on stable-coin LP
+            </p>
+          </div>
+
+        </div>
+    </div>
+  </>);
 }
 
 export default App;
